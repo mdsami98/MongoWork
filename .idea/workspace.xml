@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c312109e-9f42-49e0-bbf3-89ec1cc95f8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -24,6 +23,14 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,6 +122,7 @@
       <path value="$PROJECT_DIR$/vendor/jenssegers/mongodb" />
       <path value="$PROJECT_DIR$/vendor/mongodb/mongodb" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1UQlSWPoOzOQAUActuxjDAumS3e" />
@@ -128,6 +136,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,6 +145,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mongowork" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,6 +181,11 @@
       <updated>1575296700688</updated>
       <workItem from="1575296706610" duration="3162000" />
       <workItem from="1575456335660" duration="3710000" />
+      <workItem from="1575823322922" duration="104000" />
+      <workItem from="1575823442155" duration="41000" />
+      <workItem from="1575823494206" duration="39000" />
+      <workItem from="1575823543736" duration="3331000" />
+      <workItem from="1575835873451" duration="3508000" />
     </task>
     <servers />
   </component>
@@ -177,14 +197,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="518" y="299" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1575457040312" />
-    <state x="186" y="13" key="SettingsEditor" timestamp="1575298150709">
+    <state x="186" y="13" key="SettingsEditor" timestamp="1575823848341">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="186" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1575298150709" />
-    <state x="390" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1575456338400">
+    <state x="186" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1575823848341" />
+    <state x="390" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1575835875704">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="390" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1575456338400" />
+    <state x="390" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1575835875704" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1575456974777">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

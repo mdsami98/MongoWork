@@ -22,3 +22,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/user-list', 'HomeController@showUser')->name('userList');
+
+
+Route::post('/pay', 'CheckOutController@charge')->name('charge');
+
+
