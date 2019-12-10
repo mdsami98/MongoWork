@@ -15,9 +15,9 @@
                         <table class="table" id="datatable">
                             <thead>
                             <tr>
-                                <th>First name</th>
-                                <th>Last name</th>
+                                <th>Name</th>
                                 <th>Email</th>
+                                <th>Type</th>
                             </tr>
                             </thead>
                             <tbody>

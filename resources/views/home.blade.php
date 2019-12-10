@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    @if(Auth::user()->type == 'user')
+    @if(Auth::user()->type == 1)
 
 
         <div class="container">

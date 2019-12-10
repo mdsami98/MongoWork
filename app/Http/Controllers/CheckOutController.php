@@ -29,7 +29,7 @@ class CheckOutController extends Controller
         $updateUser = User::findOrFail($user->_id);
 
         $updateUser->update([
-            'type' => 'u'
+            'type' => 2,
         ]);
 
         return redirect()->back();
